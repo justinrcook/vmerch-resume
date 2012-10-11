@@ -2,15 +2,15 @@
 // Enter your personal details here to build your online resume.
 
 // Let's start with some basic info.  You must include your full name, but if you don't want to include your phone number or email address you can just delete those lines entirely.
-$personal['first_name']			= 'Adam';
-$personal['last_name']			= 'Dachis';
-$personal['phone_number']		= '323-555-4444';
-$personal['email_address']	= 'adachis@lifehacker.com';
+$personal['first_name']			= 'Valerie';
+$personal['last_name']			= 'Merchant';
+$personal['phone_number']		= '641-430-3590';
+$personal['email_address']	= 'valeriemm11@gmail.com';
 
 // Now let's add any social media pages you've created and want to share.  You can add whatever you want by following the format below.  The first item you add is the name of the social media site, and the second item you add is the URL to your page.
 $social_media[] = array('Facebook', 'http://facebook.com/you');
-$social_media[] = array('Twitter', 'http://twitter.com/you');
-$social_media[] = array('LinkedIn', 'http://linkedin.com/you');
+$social_media[] = array('Twitter', 'http://twitter.com/valeriemerchant');
+$social_media[] = array('LinkedIn', 'http://www.linkedin.com/profile/view?id=26164650');
 
 // Cool.  With that stuff out of the way, let's input your work history.  This part requires a bit more information but it's similar to adding a social media page like you did above but with more information.  The first item you enter is last year you worked at the job (or the range of time, if you prefer).  The second item is your job title, the third is the company you worked for, and the fourth is a description of the work you did there.  The description can get a little long, but that's okay.  Just be sure not to use any single quotes ('') or things will break!  You can add as many jobs as you like and the script will adapt.
 $work_history[] = array('2012...',
