@@ -15,21 +15,17 @@ $social_media[] = array('Google+', 'https://plus.google.com/11793000834492253017
 
 // Cool.  With that stuff out of the way, let's input your work history.  This part requires a bit more information but it's similar to adding a social media page like you did above but with more information.  The first item you enter is last year you worked at the job (or the range of time, if you prefer).  The second item is your job title, the third is the company you worked for, and the fourth is a description of the work you did there.  The description can get a little long, but that's okay.  Just be sure not to use any single quotes ('') or things will break!  You can add as many jobs as you like and the script will adapt.
 $work_history[] = array('2012...',
-						'Job Title',
-						'Company',
-						'Job Description');
-$work_history[] = array('2010...',
-						'Job Title',
-						'Company',
-						'Job Description');
-$work_history[] = array('2007...',
-						'Job Title',
-						'Company',
-						'Job Description');
+						'Girlfriend',
+						'JustinCo',
+						'Be amazing.');
+$work_history[] = array('2011...',
+						'Designer',
+						'Banno',
+						'Make awesome things');
 
 // Phew!  That was the hard part.  Now we need to enter in some other important information about you.  Let's start with your education.  You only need to enter two things: your school and a description of your degree.  If you went to Brown University you'd enter that for your school, then put your year and graduation date as the description (e.g. "BA in Social Sciences, Class of 2002").
-$education[] = array('School', 'Description');
-$education[] = array('School', 'Description');
+$education[] = array('Iowa State University', 'Mother-fucking Masters Degree in Graphic Design');
+$education[] = array('Iowa State University', 'Bachelors Degree in Graphic Design');
 
 // Presumably you learned something in school and developed a few skills over the course of your lifetime.  Let's add them here.
 $skills[] = array('Type of Skill', 'List of Related Skills');
