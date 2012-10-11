@@ -1,4 +1,4 @@
-<?
+<?php
 // Enter your personal details here to build your online resume.
 
 // Let's start with some basic info.  You must include your full name, but if you don't want to include your phone number or email address you can just delete those lines entirely.
@@ -30,7 +30,7 @@ $work_history[] = array('2007...',
 $education[] = array('School', 'Description');
 $education[] = array('School', 'Description');
 
-// Presumably you learned something in school and developed a few skills over the course of your lifetime.  Let's add them here.  
+// Presumably you learned something in school and developed a few skills over the course of your lifetime.  Let's add them here.
 $skills[] = array('Type of Skill', 'List of Related Skills');
 $skills[] = array('Type of Skill', 'List of Related Skills');
 $skills[] = array('Type of Skill', 'List of Related Skills');
