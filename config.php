@@ -2,10 +2,10 @@
 // Enter your personal details here to build your online resume.
 
 // Let's start with some basic info.  You must include your full name, but if you don't want to include your phone number or email address you can just delete those lines entirely.
-$personal['first_name']= 'Adam';
-$personal['last_name'] = 'Dachis';
-$personal['phone_number'] = '323-555-4444';
-$personal['email_address'] = 'adachis@lifehacker.com';
+$personal['first_name']			= 'Adam';
+$personal['last_name']			= 'Dachis';
+$personal['phone_number']		= '323-555-4444';
+$personal['email_address']	= 'adachis@lifehacker.com';
 
 // Now let's add any social media pages you've created and want to share.  You can add whatever you want by following the format below.  The first item you add is the name of the social media site, and the second item you add is the URL to your page.
 $social_media[] = array('Facebook', 'http://facebook.com/you');
@@ -41,13 +41,13 @@ $awards[] = array('Award Name', 'Description');
 $awards[] = array('Award Name', 'Description');
 
 // Want to turn off any of the sections on your resume?  You can do that in the settings.  Just change any section from true to false and it'll disappear.  (Note: You can't turn off your work history--that's sort of important!)
-$settings['social_media'] = true;
-$settings['education'] = true;
-$settings['skills'] = true;
-$settings['awards'] = true;
+$settings['social_media']	= true;
+$settings['education']		= true;
+$settings['skills']				= true;
+$settings['awards']				= true;
 
 // There are also a few other settings you can toggle on and off, such as offering a printable version of your resume and whether to use a dark or light style (set style to "dark" or "light" to choose).
-$settings['printable'] = true;
-$settings['style'] = "dark";
-$settings['lang'] = "en";
+$settings['printable']	= true;
+$settings['style']			= "dark";
+$settings['lang']				= "en";
 ?>
