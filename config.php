@@ -54,8 +54,8 @@ $work_history[] = array('2008',
 	'Selected by a competitive portfolio review. Created design solutions for non profit organizations.');
 	
 // Phew!  That was the hard part.  Now we need to enter in some other important information about you.  Let's start with your education.  You only need to enter two things: your school and a description of your degree.  If you went to Brown University you'd enter that for your school, then put your year and graduation date as the description (e.g. "BA in Social Sciences, Class of 2002").
-$education[] = array('Iowa State University', 'Mother-fucking Masters Degree in Graphic Design');
-$education[] = array('Iowa State University', 'Bachelors Degree in Graphic Design');
+$education[] = array('Iowa State University', 'Master of Art in Graphic Design, College of Design<br>Graduated May 2011');
+$education[] = array('Iowa State University', 'Bachelor of Fine Arts in Graphic Design, College of Design<br>Graduated May 2009');
 
 // Presumably you learned something in school and developed a few skills over the course of your lifetime.  Let's add them here.
 $skills[] = array('Type of Skill', 'List of Related Skills');
