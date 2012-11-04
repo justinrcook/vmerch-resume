@@ -14,15 +14,45 @@ $social_media[] = array('LinkedIn', 'http://www.linkedin.com/in/valeriemerchant'
 $social_media[] = array('Google+', 'https://plus.google.com/117930008344922530179/about');
 
 // Cool.  With that stuff out of the way, let's input your work history.  This part requires a bit more information but it's similar to adding a social media page like you did above but with more information.  The first item you enter is last year you worked at the job (or the range of time, if you prefer).  The second item is your job title, the third is the company you worked for, and the fourth is a description of the work you did there.  The description can get a little long, but that's okay.  Just be sure not to use any single quotes ('') or things will break!  You can add as many jobs as you like and the script will adapt.
-$work_history[] = array('2012...',
-						'Girlfriend',
-						'JustinCo',
-						'Be amazing.');
-$work_history[] = array('2011...',
-						'Designer',
-						'Banno',
-						'Make awesome things');
+$work_history[] = array('2012',
+	'Web Designer',
+	'Banno (formerly T8 Webware), Cedar Falls, Iowa',
+	'January 2011 – Present<br>
+	Lead bank and credit union clients through discovery, sitemap, and wireframe phases; then designed their responsive websites, ads, launch kits, and icons.');
+$work_history[] = array('2012',
+	'Freelance Design',
+	'Rife Recording Sudio',
+	'Created new corporate identity: logo and stationery design.');
+$work_history[] = array('2011–2012',
+	'Freelance Design',
+	'Deck Restore & More',
+	'Designed print materials for promotions.');
+$work_history[] = array('2009',
+	'Graphic Designer',
+	'Hawthorn Market & Cafe, Ames, Iowa<br>',
+	'Design signs for specials and promotions, including but not limited to drinks and featured sandwiches.');				
 
+$work_history[] = array('2009, May – August',
+	'Design Intern',
+	'G-G Amalgamated, Minneapolis, Minnesota',
+	'Designed backgrounds for website; created business cards; edited movie clips from video archives and converted them into usable formats.');
+$work_history[] = array('2008, May – August',
+	'Design Intern',
+	'e10 inc., Minneapolis, Minnesota',
+	'Designed logotype signature for Golden Opps; imported and formatted book layout and text.');
+$work_history[] = array('2007–2009',
+	'Designer',
+	'UHURU magazine',
+	'Photographed material, and designed layouts and type treatments for feature articles.');
+$work_history[] = array('2008',
+	'Designer',
+	'Clear Lake Dance Team',
+	'Designed warm-up jackets, from concept to final production.');
+$work_history[] = array('2008',
+	'Designer',
+	'ISU Practicum',
+	'Selected by a competitive portfolio review. Created design solutions for non profit organizations.');
+	
 // Phew!  That was the hard part.  Now we need to enter in some other important information about you.  Let's start with your education.  You only need to enter two things: your school and a description of your degree.  If you went to Brown University you'd enter that for your school, then put your year and graduation date as the description (e.g. "BA in Social Sciences, Class of 2002").
 $education[] = array('Iowa State University', 'Mother-fucking Masters Degree in Graphic Design');
 $education[] = array('Iowa State University', 'Bachelors Degree in Graphic Design');
