@@ -98,27 +98,6 @@ require_once($langfile);
 				<p><?php echo $work_history[$i][3]; ?></p>
 			</div>
 			<?php } ?>
-			<div class="item">
-				<span class="large_title"><?php echo $lang['contact']; ?></span><br />
-				<?php echo $lang['contact_desc']; ?><br />
-
-				<?php if (isset($personal['phone_number'])) { ?>
-				<p><span class="title"><?php echo $lang['phone']; ?></span><br />
-				<span class="subtitle"><?php echo($personal['phone_number']); ?></span></p>
-				<?php } ?>
-
-				<?php if (isset($personal['email_address'])) { ?>
-				<p><span class="title"><?php echo $lang['email']; ?></span><br />
-				<span class="subtitle"><a href="mailto:<?php echo($personal['email_address']); ?>"><?php echo($personal['email_address']); ?></a></span></p>
-				<?php } ?>
-
-				<?php if (isset($settings['social_media']) && $settings['social_media'] == true) { ?>
-				<?php for($i=0; $i<count($social_media); $i++) { ?>
-				<p><span class="title"><?php echo($social_media[$i][0]); ?><br />
-				<span class="subtitle"><a href="<?php echo($social_media[$i][1]); ?>"><?php echo(substr($social_media[$i][1], strpos($social_media[$i][1], "://")+3)); ?></a></span></p>
-				<?php } ?>
-				<?php } ?>
-			</div>
 		</div>
 		<div id="right_col">
 			<?php if (isset($settings['education']) && $settings['education'] == true) { ?>
@@ -148,6 +127,27 @@ require_once($langfile);
 				<?php } ?>
 			</div>
 			<?php } ?>
+			<div class="item">
+				<span class="large_title"><?php echo $lang['contact']; ?></span><br />
+				<?php echo $lang['contact_desc']; ?><br />
+
+				<?php if (isset($personal['phone_number'])) { ?>
+				<p><span class="title"><?php echo $lang['phone']; ?></span><br />
+				<span class="subtitle"><?php echo($personal['phone_number']); ?></span></p>
+				<?php } ?>
+
+				<?php if (isset($personal['email_address'])) { ?>
+				<p><span class="title"><?php echo $lang['email']; ?></span><br />
+				<span class="subtitle"><a href="mailto:<?php echo($personal['email_address']); ?>"><?php echo($personal['email_address']); ?></a></span></p>
+				<?php } ?>
+
+				<?php if (isset($settings['social_media']) && $settings['social_media'] == true) { ?>
+				<?php for($i=0; $i<count($social_media); $i++) { ?>
+				<p><span class="title"><?php echo($social_media[$i][0]); ?><br />
+				<span class="subtitle"><a href="<?php echo($social_media[$i][1]); ?>"><?php echo(substr($social_media[$i][1], strpos($social_media[$i][1], "://")+3)); ?></a></span></p>
+				<?php } ?>
+				<?php } ?>
+			</div>			
 		</div>
 		<div id="footer">
 			<p>&nbsp;</p>
