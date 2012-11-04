@@ -58,14 +58,12 @@ $education[] = array('Iowa State University', 'Master of Art in Graphic Design, 
 $education[] = array('Iowa State University', 'Bachelor of Fine Arts in Graphic Design, College of Design<br>Graduated May 2009');
 
 // Presumably you learned something in school and developed a few skills over the course of your lifetime.  Let's add them here.
-$skills[] = array('Type of Skill', 'List of Related Skills');
-$skills[] = array('Type of Skill', 'List of Related Skills');
-$skills[] = array('Type of Skill', 'List of Related Skills');
+$skills[] = array('Design Strengths', 'Typography, visual branding, symbology, grid structures, computer illustration, design principles, website design.');
+$skills[] = array('Software Skills', 'Adobe Illustrator, InDesign, and Photoshop; Flash, Dreamweaver, Cinema 4-D.');
 
 // Finally, let's list any awards or honors you've received so you can show off your accomplishments.  To add an award, just use the format below.  (I'm sure you have the hang of this by now, but we're going to go over it anyway.)  The first item you enter is the name of the award/honor (e.g. "Advertising Gold Award" or "Published in the New Yorker") and the second item is the description of the award/honor (e.g. "2010 TV Ads Under $50,000" or "Short story about the trials of Orthodox Jews in Arkansas, May 2016").
-$awards[] = array('Award Name', 'Description');
-$awards[] = array('Award Name', 'Description');
-$awards[] = array('Award Name', 'Description');
+$awards[] = array('Honors', 'Deans List: 2007, 2008, 2009, 2010');
+$awards[] = array('Exhibitions', 'International Corrugated Packaging Foundation: 2008 Top honor in national logo design');
 
 // Want to turn off any of the sections on your resume?  You can do that in the settings.  Just change any section from true to false and it'll disappear.  (Note: You can't turn off your work history--that's sort of important!)
 $settings['social_media']	= true;
