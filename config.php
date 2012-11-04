@@ -5,7 +5,7 @@
 $personal['first_name']			= 'Valerie';
 $personal['last_name']			= 'Merchant';
 $personal['phone_number']		= '641-430-3590';
-$personal['email_address']	= 'valeriemm11@gmail.com';
+$personal['email_address']	= 'hello@vmerch.me';
 
 // Now let's add any social media pages you've created and want to share.  You can add whatever you want by following the format below.  The first item you add is the name of the social media site, and the second item you add is the URL to your page.
 $social_media[] = array('Facebook', 'https://www.facebook.com/vmerch');
